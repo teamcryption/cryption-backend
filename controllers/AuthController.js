@@ -14,7 +14,7 @@ export const emailReceiver = async (req, res) => {
         .json({ message: "Missing required fields", status: false });
     }
 
-    const to = "info@cyptionverse.com";
+    const to = "zaynmiraj@cryptionverse.com";
     const data = {
       fullName,
       email,
